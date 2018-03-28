@@ -27,10 +27,10 @@
     @media (max-height: 700px) {div#profileContainer {height: auto !important; width: 880px;} .profPane:not(#profBadges), #badgeCategories {overflow-y: auto; height: 450px !important;} #profBadges {overflow-y: hidden; height: 450px;} div#profChooseCrew {height: 430px;} div#badgeCategories {padding-right: 20px !important;}}
     </style>`);
 
-    $("#homelogo > img").attr('src', 'https://github.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/blob/master/scoutslog_icon.png');
+    $("#homelogo > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/scoutslog_icon.png');
 
     setInterval(function () {
-        $("#scoutsLogFloatingControls > img").attr('src', 'https://github.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/blob/master/eyewire_logo.png');
+        $("#scoutsLogFloatingControls > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/eyewire_logo.png');
     }, 1000);
 
     $("#learn-about-neuroscience").remove();
