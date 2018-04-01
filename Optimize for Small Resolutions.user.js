@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Optimize for Small Resolutions
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Remove unnecessary items in Eyewire (and make some things look prettier)
 // @author       randompersonjci
 // @match        https://*.eyewire.org/
@@ -32,10 +32,10 @@
     div#acc ul li span {display: block; height: 100%; padding: 12px 4px 0; color: #dcdcdc; font-size: 10pt; box-sizing: border-box; cursor: default;}
     </style>`);
 
-    $("#homelogo > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/eyewire_logo.png');
+    $("#homelogo > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/eyewire_logo.png');
 
     setInterval(function () {
-        $("#scoutsLogFloatingControls > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/scoutslog_icon.png');
+        $("#scoutsLogFloatingControls > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/scoutslog_icon.png');
         $("#acc ul li:nth-of-type(2) a").replaceWith('<span id="HQtime"></span>');
     }, 1000);
 
