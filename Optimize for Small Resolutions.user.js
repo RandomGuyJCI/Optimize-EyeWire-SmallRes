@@ -12,7 +12,6 @@
     'use strict';
 
     $("head").append(`<style>
-    div#acc ul li:nth-of-type(2) a {font-size: 0px; padding: 0px;}
     .sl-mystic.active.minimalButton.flat.translucent {border-color: #9666FF !important; color: #9666FF;}
     .sl-promotions.active.minimalButton.flat.translucent {border-color: #aaffaa !important; color: #aaffaa;}
     div#nav ul {margin-left: 5px;}
@@ -24,13 +23,20 @@
     div#acc {margin-left: 5px;}
     div#pageHeader {padding: 0px 6px 0px 10px;}
     div#profChooseCrew {height: 570px;}
-    @media (max-height: 700px) {div#profileContainer {height: auto !important; width: 880px;} .profPane:not(#profBadges), #badgeCategories {overflow-y: auto; height: 450px !important;} #profBadges {overflow-y: hidden; height: 450px;} div#profChooseCrew {height: 430px;} div#badgeCategories {padding-right: 20px !important;}}
+    @media (max-height: 700px) {
+        div#profileContainer {height: auto !important; width: 880px;}
+        .profPane:not(#profBadges), #badgeCategories {overflow-y: auto; height: 450px !important;}
+        #profBadges {overflow-y: hidden; height: 450px;}
+        div#profChooseCrew {height: 430px;}
+        div#badgeCategories {padding-right: 20px !important;}}
+    div#acc ul li span {display: block; height: 100%; padding: 12px 4px 0; color: #dcdcdc; font-size: 10pt; box-sizing: border-box; cursor: default;}
     </style>`);
 
     $("#homelogo > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/eyewire_logo.png');
 
     setInterval(function () {
         $("#scoutsLogFloatingControls > img").attr('src', 'https://rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/master/scoutslog_icon.png');
+        $("#acc ul li:nth-of-type(2) a").replaceWith('<span id="HQtime"></span>');
     }, 1000);
 
     $("#learn-about-neuroscience").remove();
