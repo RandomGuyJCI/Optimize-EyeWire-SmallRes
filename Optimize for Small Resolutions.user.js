@@ -11,8 +11,7 @@
 (function() {
     'use strict';
 
-    $("head").append(`
-    <style>
+    $("head").append(`<style>
     .sl-mystic.active.minimalButton.flat.translucent {border-color: #9666FF !important; color: #9666FF;}
     .sl-promotions.active.minimalButton.flat.translucent {border-color: #aaffaa !important; color: #aaffaa;}
     div#nav ul {margin-left: 5px;}
@@ -31,13 +30,12 @@
         div#profChooseCrew {height: 430px;}
         div#badgeCategories {padding-right: 20px !important;}}
     div#acc ul li span {display: block; height: 100%; padding: 12px 4px 0; color: #dcdcdc; font-size: 10pt; box-sizing: border-box; cursor: default;}
-    </style>
-    `);
+    </style>`);
 
-    $("#homelogo > img").attr('src', 'eyewire_logo.png');
+    $("#homelogo > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/eyewire_logo.png');
 
     setInterval(function () {
-        $("#scoutsLogFloatingControls > img").attr('src', 'scoutslog_icon.png');
+        $("#scoutsLogFloatingControls > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/scoutslog_icon.png');
         $("#acc ul li:nth-of-type(2) a").replaceWith('<span id="HQtime"></span>');
     }, 1000);
 
