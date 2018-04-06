@@ -6,6 +6,7 @@ Removes unnecessary items in [Eyewire](https://eyewire.org "For Science!") (and 
 - Replaced the Sign Out button with the current HQ time (Eastern Time Zone)
 - Added automatic sizing of the profile window to be able to fit for smaller screens
 - Added color to the other Scout's Log buttons
+- Removed the Show Scout's Log and Show Inspect Panel buttons
 
 ### Minor
 - Reduced the margins and paddings of the elements of the header and scout's log to fit more space
@@ -16,3 +17,4 @@ Removes unnecessary items in [Eyewire](https://eyewire.org "For Science!") (and 
 - Fix the issue of the settings automatically scrolling down and closing when selecting one of the dropdowns
 - Fix the issue of the hidden part of the page being shown when dragging the Scout's Log toolbar to the right
 - Improve the look of the generic select elements
+- Add settings to toggle the features
