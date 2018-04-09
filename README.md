@@ -18,3 +18,4 @@ Removes unnecessary items in [Eyewire](https://eyewire.org "For Science!") (and 
 - Fix the issue of the hidden part of the page being shown when dragging the Scout's Log toolbar to the right
 - Improve the look of the generic select elements
 - Add settings to toggle the features
+- Make a compact Scout's Log orientation but less compact than KrzysztofKruk's compact Scout's Log
