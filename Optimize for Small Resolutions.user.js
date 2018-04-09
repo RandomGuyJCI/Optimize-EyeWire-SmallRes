@@ -176,9 +176,9 @@
   });
 
 
-  $("#homelogo > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/eyewire_logo.png');
+  $("#homelogo > img").attr('src', 'eyewire_logo.png');
 
-  $("#scoutsLogFloatingControls > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/scoutslog_icon.png');
+  $("#scoutsLogFloatingControls > img").attr('src', 'scoutslog_icon.png');
 
   $("#acc ul li:nth-of-type(2) a").replaceWith('<span id="HQtime"></span>');
 
