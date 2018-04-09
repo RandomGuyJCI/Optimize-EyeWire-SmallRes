@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         Optimize for Small Resolutions
+// @name         Optimize for Small Resolutions (Settings Version)
 // @namespace    http://tampermonkey.net/
-// @version      1.2 (beta)
+// @version      2.0 (beta)
 // @description  Remove unnecessary items in Eyewire (and make some things look prettier)
 // @author       randompersonjci
-// @match        https://*.eyewire.org/
-// @run-at       document-idle
+// @match        https://eyewire.org/
 // ==/UserScript==
 
 (function() {
