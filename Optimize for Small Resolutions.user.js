@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Optimize for Small Resolutions (Non-settings Version)
+// @name         Optimize for Small Resolutions
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Remove unnecessary items in Eyewire (and make some things look prettier)
