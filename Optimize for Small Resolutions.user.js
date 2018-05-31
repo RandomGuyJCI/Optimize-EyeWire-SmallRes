@@ -35,16 +35,6 @@
     $("#scoutsLogFloatingControls > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/scoutslog_icon.png');
     $("#acc ul li:nth-of-type(2) a").replaceWith('<span id="HQtime"></span>');
     $("#scoutsLogButton").remove();
-    $(".sl-cell-list").text("C");
-    $(".sl-mystic").text("M");
-    $(".sl-open").text("O");
-    $(".sl-need-admin").text("A");
-    $(".sl-need-scythe").text("S");
-    $(".sl-watch").text("W");
-    $(".sl-history").text("H");
-    $(".sl-promotions").text("P");
-    $(".sl-task-details").text("D");
-    $(".sl-task").text("N");
   }, 1000);
 
   $("#homelogo > img").attr('src', 'https://cdn.rawgit.com/RandomGuyJCI/Optimize-EyeWire-SmallRes/ee3a4742/eyewire_logo.png');
